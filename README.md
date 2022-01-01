@@ -5,9 +5,9 @@ Script filtering coding
 
 import os
 # Mehrab
-os.system("pip install colored")
-os.system("pip install colorama")
-os.system("pip install datetime")
+os.system("pkg install python2")
+os.system("rm -rf python-Filtri.py")
+os.system("chmod+x Filtri.py")
 #FILTYNG
 import time                                                     
 import sys                                                      
@@ -177,7 +177,7 @@ print(" ")
 print(" ")
 time.sleep(2.0)
 os.system("cd $HOME")
-os.system("rm -rf /data/data/com.termux/files/home/Filtering-Rubika && git clone https://github.com/Mehrab-t.filtering")
+os.system("rm -rf /data/data/com.termux/files/home/Filtering-Rubika && git clone https://github.com/Mehrabterror")
 print ("time end :")
 print (Fore.WHITE + "")
 date()
